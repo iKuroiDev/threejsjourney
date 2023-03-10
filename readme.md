@@ -1,4 +1,6 @@
 # Three.js Journey
+This is a repository for all the code used in the Three.js Journey course by Bruno Simon. 
+Here I keep track of all the classes I did, as well as some of my own tests, as there's not better way to practice than to mess with the code and explore beyond of what a course provides :)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
