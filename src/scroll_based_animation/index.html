@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20 - scroll based animations</title>
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      html {
+        background: #1e1a20;
+      }
+
+      p {
+        font-size: 0.3em;
+        line-height: 2;
+      }
+
+      .section {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        font-family: "Cabin", sans-serif;
+        color: #ffeded;
+        font-size: 7vmin;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .section-content {
+        max-width: 50%;
+      }
+
+      section:nth-child(odd) {
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <section class="section">
+      <div class="section-content">
+        <h1>TORUS</h1>
+        <p>
+          A torus geometry is like a donut or a tire shape, with a curved
+          surface that wraps around to form a loop. It looks like a round tube
+          with a hole in the middle. The torus is interesting because it has
+          continuous curvature and symmetry when you rotate it. It's used in
+          math, physics, computer graphics, and design. People find it
+          fascinating to study and play with because of its cool shape and
+          properties.
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-content">
+        <h2>CONE</h2>
+        <p>
+          A cone geometry is like an ice cream cone or a traffic cone shape. It
+          has a pointed tip and a circular base, with a smooth curved surface
+          that tapers from the base to the tip. Cones are used in architecture,
+          engineering, and math. They're stable and efficient in distributing
+          forces, making them versatile in design and fluid dynamics. Cones,
+          whether as treats or geometric concepts, capture our attention with
+          their simple yet impactful shape.
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-content">
+        <h2>TORUS KNOT</h2>
+        <p>
+          A torus knot geometry is like a gnarly tangle of a rope or a funky
+          piece of jewelry. It's formed by looping a rope around a torus shape
+          and then tying it in intricate patterns. These knots have a
+          mesmerizing appearance, with their loops and twists intertwining in a
+          captivating manner. Torus knots come in different varieties, each
+          defined by the number of times the rope wraps around the torus.
+          They're not just cool to look at; they also have practical
+          applications in fields like physics, chemistry, and even computer
+          graphics.
+        </p>
+      </div>
+    </section>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
