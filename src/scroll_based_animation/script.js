@@ -187,6 +187,8 @@ let tick = () => {
         mesh.rotation.y += deltaTime * 0.12
     }  
 
+    particles.rotation.y += deltaTime * 0.02;
+
     // Update renderer
     renderer.render(scene, camera);
 
